@@ -1,0 +1,706 @@
+{
+  "project": "Yae Miko Desktop AI V5.3 Patch 1 Candidate",
+  "created_local_date": "2026-11-11",
+  "source_phase4_candidate_sha256": "07b3e4010e0a78ac83cae061f24f52b2b753f34c3d6bc99d7bf699f6b1bb619e",
+  "payload_file_count": 138,
+  "project_file_count_including_patch1_manifest_and_sha256": 140,
+  "excluded_runtime_artifacts": [
+    "logs/",
+    "__pycache__/",
+    "*.pyc"
+  ],
+  "quarantine_review_policy": "all original files retained byte-for-byte; no files added or removed",
+  "formal_databases_policy": "all three database files unchanged from Phase 4 source candidate",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 68,
+      "sha256": "fa6ddad4f143d8add7fb8aaf01eabd7057ac3a6a728b53891df91a7ac9ca1f73"
+    },
+    {
+      "path": "CHANGELOG_4號版本.md",
+      "size_bytes": 2163,
+      "sha256": "2efee7635035da5ec6d28b6d9a597eea1ac54e0018685b1a3e27d4548f6c54a1"
+    },
+    {
+      "path": "CHANGELOG_V5.md",
+      "size_bytes": 2611,
+      "sha256": "370ebd013d7d7bd3855df54d1203e898c4272a2940f782c261d5a0026f9508aa"
+    },
+    {
+      "path": "CLEANUP_REPORT.md",
+      "size_bytes": 1802,
+      "sha256": "17c8f612c8015ce02cc77249168b6e10ffe40a1523ddb2fbf3bec656bb8b88d6"
+    },
+    {
+      "path": "DATABASE_MIGRATION_REPORT.md",
+      "size_bytes": 1623,
+      "sha256": "eea227bc71d2c534d4905f8ee96e994d07367b3d5b23922c1a9f652a1bfbffcd"
+    },
+    {
+      "path": "EXTERNAL_SEARCH_SECURITY_REPORT.md",
+      "size_bytes": 1276,
+      "sha256": "2ff82a2fd3b1708ec0174bb55c582b66de78bcc4f0c11d18c5206c8c0f29bb82"
+    },
+    {
+      "path": "FILELIST_V5.txt",
+      "size_bytes": 6254,
+      "sha256": "f484920c570bcaf1ddd84c9636673109c877b431bc6cadc8ef67f9c7ba39bd7f"
+    },
+    {
+      "path": "INSTALLATION_V5.3.md",
+      "size_bytes": 2601,
+      "sha256": "a8cd424d763f1d86ec7341b85cc43b483ce44b4a9edf1c25646d13d0680c85e6"
+    },
+    {
+      "path": "INSTALL_4號版本.bat",
+      "size_bytes": 617,
+      "sha256": "c1ef713e79c7adc2f972603e0ab3af5fccfaec5d54548df1bee908180336679d"
+    },
+    {
+      "path": "INSTALL_V5.bat",
+      "size_bytes": 599,
+      "sha256": "3e602eef99b60b5cee1a9073999ca38ffe519d1eae43d80ef5e022a939b325fa"
+    },
+    {
+      "path": "OPEN_SOURCE_ATTRIBUTIONS.md",
+      "size_bytes": 3170,
+      "sha256": "a6e5ee2440af417f76451a48e3e094a888b64e42a38b68b415aeca34dc70fdcf"
+    },
+    {
+      "path": "PATCH1_CHANGELOG.md",
+      "size_bytes": 2478,
+      "sha256": "253238ab135b7c82d516b27240b58a4d5b9a778e09b517f7e416ab5370766282"
+    },
+    {
+      "path": "PATCH1_DIFF_REPORT.md",
+      "size_bytes": 1878,
+      "sha256": "3ff0aea8ccd38571530750b73ad805634e52bef5d6075aacce39336ad2728c39"
+    },
+    {
+      "path": "PATCH1_INSTALLATION.md",
+      "size_bytes": 2331,
+      "sha256": "b6f76ccc1f11a43a8c90c072d48aac6ff512bdb7cefbc111ccd49e7c272ae6c9"
+    },
+    {
+      "path": "PATCH1_TEST_ID_CROSSWALK.md",
+      "size_bytes": 3260,
+      "sha256": "36dfecea92ae1db6a41986d15059c4b2a3709dbb781428d2b8cf5f42891eb829"
+    },
+    {
+      "path": "PATCH1_TEST_REPORT.md",
+      "size_bytes": 4454,
+      "sha256": "387811b36fc2e0ae42429ad45facc00143500fb3665b7d416049d1d01b838e58"
+    },
+    {
+      "path": "PATCH1_V54_BACKLOG.md",
+      "size_bytes": 1806,
+      "sha256": "0ab3f6f27acb4846199a5f7e50ba35b801a2978bcea7f65fe29e6048f54507c2"
+    },
+    {
+      "path": "README_3號版本.md",
+      "size_bytes": 4733,
+      "sha256": "2860ba6197ae6efab740a7f20fb2c98a9b42dcc219c370cc5ebeff4ad3903e5e"
+    },
+    {
+      "path": "README_4號版本.md",
+      "size_bytes": 5725,
+      "sha256": "e7d77e6f6ef970afb1ffb7c350debec374bb5bb3ae7bba8459a3f1ab4f6179bc"
+    },
+    {
+      "path": "README_V5.md",
+      "size_bytes": 3437,
+      "sha256": "99376f3450cd7fd481164d47aee5229a02312ad252e584cb24843c6c22df0c6b"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "size_bytes": 13101,
+      "sha256": "6c7aaf0ef98f699601c29d21ad21b60952b00d2b759afa530426b995d13dc52d"
+    },
+    {
+      "path": "START_4號版本.bat",
+      "size_bytes": 183,
+      "sha256": "0cc52b035412320ecf1ca32130b5a2ddb9ba35961b0df9ea67b1e7d37e56108e"
+    },
+    {
+      "path": "START_V5.bat",
+      "size_bytes": 183,
+      "sha256": "0cc52b035412320ecf1ca32130b5a2ddb9ba35961b0df9ea67b1e7d37e56108e"
+    },
+    {
+      "path": "TEST_REPORT_GROWTH_V2.md",
+      "size_bytes": 3001,
+      "sha256": "aa47b905596bf8bde62d3396760e49818271948b4dc0440856d4d0cc2ab1248d"
+    },
+    {
+      "path": "TEST_REPORT_V5_STAGE2.md",
+      "size_bytes": 4223,
+      "sha256": "b788ffc08e844352b8573c81e04aec6eee131e4dc4fea87f88a1d14b3b4ca9e4"
+    },
+    {
+      "path": "TEST_REPORT_第一優先級.md",
+      "size_bytes": 2472,
+      "sha256": "63a8bd25fdc79c27caca4355fad5207cd800a3c59d4f2e1f65329dbf4a6dd963"
+    },
+    {
+      "path": "V5.3_PHASE4_ENGINEERING_REPORT.md",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "V5.3_PHASE4_MANIFEST.json",
+      "size_bytes": 23450,
+      "sha256": "746cd35126d6dc9ce157d9beacf771b79aad3ab8a8129f24ebdd496269f408d3"
+    },
+    {
+      "path": "V5_3_PHASE2_WORKCOPY_MANIFEST.json",
+      "size_bytes": 2958,
+      "sha256": "8f9318b01925b1dc48549b507f284fc8bf343fa8fcdf7da1d028f9bce030ec77"
+    },
+    {
+      "path": "WINDOWS_ACCEPTANCE_CHECKLIST.md",
+      "size_bytes": 2776,
+      "sha256": "e442364dfc70cdfa038a8be29992ac3017d0e8656c717b3d74543a01a1a94d35"
+    },
+    {
+      "path": "assets/characters/CHAR_01.png",
+      "size_bytes": 319156,
+      "sha256": "c6a12d2568e33440675166a527cf93ad54db0553979b3fdaea8b3ff73939dc4c"
+    },
+    {
+      "path": "assets/characters/CHAR_02.png",
+      "size_bytes": 314663,
+      "sha256": "04edfd5df5037a6e683a52007c38b82d40d2c34f56cc458085615769704c1992"
+    },
+    {
+      "path": "assets/characters/CHAR_03.png",
+      "size_bytes": 396712,
+      "sha256": "b48cb6b0b097681c8b8d008692edcd4ba6b491396979caf0a077a71287deb3a4"
+    },
+    {
+      "path": "assets/expressions/EXP_01.png",
+      "size_bytes": 44681,
+      "sha256": "3fd85a49ecdd3197dc9d0a7be85e82b1950f36c0a671572f86f08c36a267ceab"
+    },
+    {
+      "path": "assets/expressions/EXP_02.png",
+      "size_bytes": 43966,
+      "sha256": "07c1f50081ae2995f4e5fe34005fbf8aa4de3cfa2231db257bd73863e6842a9f"
+    },
+    {
+      "path": "assets/expressions/EXP_03.png",
+      "size_bytes": 41980,
+      "sha256": "b99d6f7ca77c1f94e908cff5609e163e6642b17afdd82797b4c839f0a00bb169"
+    },
+    {
+      "path": "assets/expressions/EXP_04.png",
+      "size_bytes": 39381,
+      "sha256": "f51107f069eef5f4cb70bced5d2a0b395413ed0564536c5bbce41e12c3485ab1"
+    },
+    {
+      "path": "assets/expressions/EXP_05.png",
+      "size_bytes": 41009,
+      "sha256": "50e983e3b0d3b29ae2f2205afebc3d81fe89f58cabf45f202d7d5166b0000fdf"
+    },
+    {
+      "path": "assets/expressions/EXP_06.png",
+      "size_bytes": 40813,
+      "sha256": "b14a2c6b0e12518aba08f07e15a8cd8806d1d5e1c33b0f9dadb5c09807965619"
+    },
+    {
+      "path": "assets/expressions/EXP_07.png",
+      "size_bytes": 37278,
+      "sha256": "9b051145c2af7161f0ef418d254c08a8d6d38bfb65e9cb4c5169056a1d96f999"
+    },
+    {
+      "path": "assets/expressions/EXP_08.png",
+      "size_bytes": 35523,
+      "sha256": "7ed072e62e3d7a1fe933598bb0791a8c84e0ad68046de3351f25e67ea47b393d"
+    },
+    {
+      "path": "assets/expressions/EXP_09.png",
+      "size_bytes": 45607,
+      "sha256": "4fd44ef1d8e0c3ebc882b764ee34cf36d1c0e45e1ecd29f0bd5c8e7f205dc1f0"
+    },
+    {
+      "path": "assets/expressions/EXP_10.png",
+      "size_bytes": 43341,
+      "sha256": "1a939fa28494ed1472a359b1f6e93c4c804cd0e9b68c461f452ae9378d5f0d86"
+    },
+    {
+      "path": "assets/expressions/EXP_11.png",
+      "size_bytes": 40015,
+      "sha256": "badb73ca0c28b5a9c1ab13d80a16a9f4208df0a69eeedb149c1fdf1a9016ed6e"
+    },
+    {
+      "path": "assets/expressions/EXP_12.png",
+      "size_bytes": 38208,
+      "sha256": "5470e300a461e23783737903dee66ba7c0e322f8721dfae312aca98767263366"
+    },
+    {
+      "path": "assets/manifest.json",
+      "size_bytes": 18289,
+      "sha256": "d1a6a50711f13e9cb56e0a5b38dfb9f20a7bb11237d600a9a4483541e3a91fdd"
+    },
+    {
+      "path": "assets/original/character_sheet_original.png",
+      "size_bytes": 3166501,
+      "sha256": "03bd437cb975e99207073a98b729775dab3c215843e9bbe8b6f55ccb4528e841"
+    },
+    {
+      "path": "assets/poses/POSE_01.png",
+      "size_bytes": 57569,
+      "sha256": "a43c17ec4ef0f127311a3ba7cfd6d75160fa8e87f9b6acbd2c5cf49eb29ff334"
+    },
+    {
+      "path": "assets/poses/POSE_02.png",
+      "size_bytes": 55150,
+      "sha256": "11925284b47833b6ef353d7a4dca812fe4cf777f5011a369c45269803c9a7251"
+    },
+    {
+      "path": "assets/poses/POSE_03.png",
+      "size_bytes": 58956,
+      "sha256": "88fbdb93e650bb8ba0fb38e7069d032ba235e24a6ff8b775b8e1b3ec8cf8fe19"
+    },
+    {
+      "path": "assets/poses/POSE_04.png",
+      "size_bytes": 56755,
+      "sha256": "caed021302a554a8e585c3fa61b5d277355f96126d4bdefafad922f0b9a888cd"
+    },
+    {
+      "path": "assets/poses/POSE_05.png",
+      "size_bytes": 56593,
+      "sha256": "d98c5eab63ece6662a2558e7c818777cfb7ec79d63528f8003d2dd515cb5f84c"
+    },
+    {
+      "path": "assets/poses/POSE_06.png",
+      "size_bytes": 50044,
+      "sha256": "34d0fb902dd9f64ce106c96bcd5163e9bc7f805a1aa7e58f42b7fa18a4a9f971"
+    },
+    {
+      "path": "assets/poses/POSE_07.png",
+      "size_bytes": 49162,
+      "sha256": "78aa165c599d1696a1b99c176c0f468a217e23fa3444f6c40d85b10dfebcf4ba"
+    },
+    {
+      "path": "assets/poses/POSE_08.png",
+      "size_bytes": 60890,
+      "sha256": "e384ee4fac2b1542578892834eb64e4ea5f405d8418871d55a4acb1b40140d3b"
+    },
+    {
+      "path": "assets/poses/POSE_09.png",
+      "size_bytes": 44564,
+      "sha256": "10fe3aae9e9f19dae67d2e44af42c5862a9c64d828e097fa6692f969560da8fd"
+    },
+    {
+      "path": "assets/poses/POSE_10.png",
+      "size_bytes": 47609,
+      "sha256": "417109ef9ea643cf0a7dd049ebd606bcad5bf25ed64e28ea121a968077a85b47"
+    },
+    {
+      "path": "assets/poses/POSE_11.png",
+      "size_bytes": 41916,
+      "sha256": "35b87fd437490ed85c81c100521ca3b6d03964057e78192a70c5df896e7af194"
+    },
+    {
+      "path": "assets/poses/POSE_12.png",
+      "size_bytes": 44421,
+      "sha256": "e856b8abcf5cb471e25434bf2906522481d5dcf9e7bd15a250b0a06729221827"
+    },
+    {
+      "path": "assets/poses/POSE_13.png",
+      "size_bytes": 32138,
+      "sha256": "c1c1af3aad889aeef78ad0304403f02e293e1a020fd6b7f3b97e7869e6d2c2a3"
+    },
+    {
+      "path": "assets/poses/POSE_14.png",
+      "size_bytes": 31213,
+      "sha256": "4f6c85fdef85289ea5d47f603f228d04d8c8676e732f699865a4eb267f41cf4c"
+    },
+    {
+      "path": "assets/poses/POSE_15.png",
+      "size_bytes": 33518,
+      "sha256": "2ffdf7f9e73f21b0d7ba2968083409bb29c90cf1177c1cbbc3909a2af51989a1"
+    },
+    {
+      "path": "assets/poses/POSE_16.png",
+      "size_bytes": 44472,
+      "sha256": "771adc49f5e5c1783e05a86a72d3f4b02f13135f73ab4440225a99166448e8b5"
+    },
+    {
+      "path": "assets/poses/POSE_17.png",
+      "size_bytes": 43370,
+      "sha256": "27006ed73e43734df8e95bbafe3564fa765cc9b99798c234c986e085b658590e"
+    },
+    {
+      "path": "assets/poses/POSE_18.png",
+      "size_bytes": 50533,
+      "sha256": "f6eec9929d558e0deec24a32d9cf49946f6a61b0fcac7ea3359d4900314faaec"
+    },
+    {
+      "path": "assets/poses/POSE_19.png",
+      "size_bytes": 47779,
+      "sha256": "bd7a753f487c926bb9ccac986da6a9b68094c159dc18f739b23faac0dbc13d86"
+    },
+    {
+      "path": "assets/poses/POSE_20.png",
+      "size_bytes": 46815,
+      "sha256": "f98373488185b9d3a3339c6f7ac160d6891537ba99b1a986317fcb2b21e8db76"
+    },
+    {
+      "path": "assets/poses/POSE_21.png",
+      "size_bytes": 36366,
+      "sha256": "1824e7ad78b7404e3333786c4810aefe586b295eab300165c3aa4c4f3e729cf8"
+    },
+    {
+      "path": "assets/poses/POSE_22.png",
+      "size_bytes": 37019,
+      "sha256": "5396e5dbb2250972aa7a99586bd9c16e98b71c63b5b3c28689439a402fcfb3bb"
+    },
+    {
+      "path": "assets/poses/POSE_23.png",
+      "size_bytes": 37133,
+      "sha256": "b26a2db6021f53cb76ccafd10ac31859013fa2ec727191ca4ea65de69ebc48d0"
+    },
+    {
+      "path": "assets/poses/POSE_24.png",
+      "size_bytes": 36209,
+      "sha256": "a35e5b61eb05e01cd2a73b46e8be2e587db52c6a29dd00abcb3737a860d6ec37"
+    },
+    {
+      "path": "assets/previews/39項素材_候選座標總覽.png",
+      "size_bytes": 2306061,
+      "sha256": "39bbea935d59f2827feabc02d69aaf31a9cfcbf737a22507240dca6bff88b0a1"
+    },
+    {
+      "path": "assets/previews/39項素材_候選裁切接觸表.png",
+      "size_bytes": 1330003,
+      "sha256": "aca31f64234a6a0e66e1f15bacb9addf88891b5bf55d3c55bfbb3396c1504e02"
+    },
+    {
+      "path": "assets/previews/candidate_manifest.json",
+      "size_bytes": 8137,
+      "sha256": "65e473e94ec7ff7511eca04ca05bb4be4fb4c2d7e910d8be0a5324ee5b7e74e1"
+    },
+    {
+      "path": "character_state_manager.py",
+      "size_bytes": 5431,
+      "sha256": "6814754bb9353fcda3ce7dc2ab0409d1588ffb8d41042a2b53d253812797df5a"
+    },
+    {
+      "path": "database_paths.py",
+      "size_bytes": 1832,
+      "sha256": "5f5428e19c748c71b2743bc745dba44c510b95c7572cb39eb4e1c086cf50cc38"
+    },
+    {
+      "path": "desktop_pet.py",
+      "size_bytes": 163090,
+      "sha256": "dec0dc466b14fe3071e3dc1b916ecaf2e0a6e4c42a32f1ed323a188e92592443"
+    },
+    {
+      "path": "event_logger.py",
+      "size_bytes": 1979,
+      "sha256": "abf14bc7081f956fde47854c142f2b6985df44b5334cd33bad4aceb3f7fdda4d"
+    },
+    {
+      "path": "game_classification.py",
+      "size_bytes": 12275,
+      "sha256": "2d12aceeddaa420a79382ad406c3208bac71b3a524d4ce409fdfd279df515e53"
+    },
+    {
+      "path": "game_identity.py",
+      "size_bytes": 1929,
+      "sha256": "280bdf2939bd03d8c38b371f6c8109d1d2c279e2afa14e40564fa3390bba3c48"
+    },
+    {
+      "path": "growth_manager.py",
+      "size_bytes": 41900,
+      "sha256": "9d259778a6055acc164a7e7d3f7e01e695e25d00981b6b04b515bd4cac1c231f"
+    },
+    {
+      "path": "intent_router.py",
+      "size_bytes": 2869,
+      "sha256": "b0e3b724b2e7a31e8426b2fb00cf2e4c65f49df24666ac51732a241816a9e75b"
+    },
+    {
+      "path": "launcher.bat",
+      "size_bytes": 183,
+      "sha256": "0cc52b035412320ecf1ca32130b5a2ddb9ba35961b0df9ea67b1e7d37e56108e"
+    },
+    {
+      "path": "main.py",
+      "size_bytes": 285,
+      "sha256": "8cf25772f45d4fc5e9ec9ca0cb11494bd6ebce819a32db7a6592771a2f58821c"
+    },
+    {
+      "path": "migrate_growth_v2.py",
+      "size_bytes": 2370,
+      "sha256": "4cf4b3f87eda8652c66e7c252238b0aab706d44138340c1539964ecf4e32fbdb"
+    },
+    {
+      "path": "quarantine_review/QUARANTINE_MANIFEST.json",
+      "size_bytes": 13185,
+      "sha256": "8b0633af39e5b010e2e2da2dcb7a11ac297be7f754b000d41a30179a62c6f431"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/check_shadow_mask.py",
+      "size_bytes": 847,
+      "sha256": "802e4b3a5d5c2f303004e5930bf12b332050cf7643adcd374a7dd036130ae5e2"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/inpaint_tool.py",
+      "size_bytes": 16232,
+      "sha256": "24e6bec6f73735d3734a39412c0713ca02597c6477f28e9a3cbd054255db97c2"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/make_repair_plan.py",
+      "size_bytes": 2277,
+      "sha256": "e04d13e5440e8a2f1693958c4e0f50829c030899e4e1af45c56319b1c830f593"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/paint_joint_mask.py",
+      "size_bytes": 4842,
+      "sha256": "cf019d9007483548bbb1d24805b3dd4fc5af2c2c49bd0947f106b0c9ae30baf8"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/paint_repair_mask.py",
+      "size_bytes": 2643,
+      "sha256": "dd090192d18dc4be24a337dedd65715fc59f6f1de5c764ee371acc7fe88c1da3"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/refine_tassel_try5.py",
+      "size_bytes": 4162,
+      "sha256": "37d0e9025970a443267908e5e2d721201f419c9323615f848de89cc1b87be363"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/repair_tassel_5tries.py",
+      "size_bytes": 4107,
+      "sha256": "e5ff9cb1a34e203b7d572e17c0db5a74ede68bf36a36e1ea2699002880514df8"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/repair_tassel_only.py",
+      "size_bytes": 3910,
+      "sha256": "3c7ef7f017ffc453a161b567de5d1e9d16cc39cc1903c17c7ae9a4a5bfde5af2"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/restore_charm.py",
+      "size_bytes": 2211,
+      "sha256": "ff115e08599925c154892f61cb0459f7e8eeeafadb1d2676a44ceb918db2e15b"
+    },
+    {
+      "path": "quarantine_review/asset_repair_tools/run_detail_repair.py",
+      "size_bytes": 4420,
+      "sha256": "e3fe13c743f151242a28e743ea4f69bb7ce24cd69040bc5da8c5e5c3082c8492"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet - 複製.py",
+      "size_bytes": 122101,
+      "sha256": "64475be38cbdf2b4372708162c99f3a05162e4a7e110d8ca7cdcd58353d0b3af"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_1.7_backup.py",
+      "size_bytes": 60379,
+      "sha256": "734ed308d0e40b4732119f5bce5dc72db9951ed3da531adb13b92a747df66263"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup.py",
+      "size_bytes": 3954,
+      "sha256": "81934dd2fafc7ae58d9d3f4b92e8a5b67675d391bc3eb75b16fdd01c16ebc01a"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_before_image.py",
+      "size_bytes": 42458,
+      "sha256": "ac610484dfe313b92dc20d213968a97d2bae8d9899cc7b547116e1211f7c3bef"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_combined.py",
+      "size_bytes": 47059,
+      "sha256": "9c8c59b8e0c038fce348e5f30801f36cc0670bb7f4ad9aedda981150c3a0d16e"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_image_update.py",
+      "size_bytes": 42467,
+      "sha256": "50e6ca665000a7430947797d9ce40211df1e337ef13477d5dd0a935b72982e30"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_interaction.py",
+      "size_bytes": 42546,
+      "sha256": "3713bf221e54abdaecb7a4f92633494e898c91e92c281bb42c54720c552b883f"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_interaction_2.py",
+      "size_bytes": 42546,
+      "sha256": "3713bf221e54abdaecb7a4f92633494e898c91e92c281bb42c54720c552b883f"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_interaction_3.py",
+      "size_bytes": 42546,
+      "sha256": "3713bf221e54abdaecb7a4f92633494e898c91e92c281bb42c54720c552b883f"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_backup_interaction_final.py",
+      "size_bytes": 42546,
+      "sha256": "3713bf221e54abdaecb7a4f92633494e898c91e92c281bb42c54720c552b883f"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_before_integration.py",
+      "size_bytes": 32125,
+      "sha256": "c1271279ee5c27e88af7f837e008e0cbc431d55f2719a7361df8e59be708f200"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_bubble_backup.py",
+      "size_bytes": 7776,
+      "sha256": "c5e740dafe0d0893deae3eef8d3c7b462b2aa177633d5dee73c7a20f4c3b21d9"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_修復前備份_20261110_224353.py",
+      "size_bytes": 114029,
+      "sha256": "d32450f4b9c8947042705f90725aff8e5773074f8316aa7bab50f524d3cb1457"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/desktop_pet_文字修復前備份_20261110_224619.py",
+      "size_bytes": 123427,
+      "sha256": "8610b2eddfd78a5153242fcd11cf156e9f5f22775c9d1ab357e6e06bfaa800b7"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/main_backup.py",
+      "size_bytes": 285,
+      "sha256": "8cf25772f45d4fc5e9ec9ca0cb11494bd6ebce819a32db7a6592771a2f58821c"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/sol_window - 複製.py",
+      "size_bytes": 7122,
+      "sha256": "4b45cc97ff131f9f7b9abef687e00b5991c17c3bcdd2c45593c8ef39090801ce"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/sol_window_backup.py",
+      "size_bytes": 13961,
+      "sha256": "4cc48df3ec724af5ed4e11a7b0f32f2e7027e7226f6d081f1e502ab20577f142"
+    },
+    {
+      "path": "quarantine_review/legacy_backups/sol_window_old.py",
+      "size_bytes": 11555,
+      "sha256": "0336bc3901d73e98b44fe2255e95b596afe4f88a98232ba935f1129f383f4155"
+    },
+    {
+      "path": "quarantine_review/legacy_growth_modules/八重神子成長引擎.py",
+      "size_bytes": 15939,
+      "sha256": "f632b74235f874faed70335092ba3e256391ab08dc51fe310457a4ad25158127"
+    },
+    {
+      "path": "quarantine_review/legacy_growth_modules/八重神子成長整合啟動器.py",
+      "size_bytes": 15184,
+      "sha256": "d49d97fefeca628a8de1cfe241be29f19fd0f881b6a318306fd029d4c7b960a8"
+    },
+    {
+      "path": "quarantine_review/legacy_growth_modules/八重神子自主思考.py",
+      "size_bytes": 11274,
+      "sha256": "920f010e73e6f373902214b9448ff109fc5db709a7efe1fa2ad09e6e8cd25cc1"
+    },
+    {
+      "path": "quarantine_review/legacy_patch_tools/修復八重神子文字顯示.py",
+      "size_bytes": 3173,
+      "sha256": "34daf8a904af3a485624f495d2365bd0573a998954f71832fd9f53a9ccb92f43"
+    },
+    {
+      "path": "quarantine_review/legacy_patch_tools/修復八重神子遊戲系統.py",
+      "size_bytes": 28585,
+      "sha256": "63e46cff54fc3b062d37a9771305320f3ba821fd833da00b9c2c8a1e3b9d086a"
+    },
+    {
+      "path": "quarantine_review/legacy_patch_tools/更新八重神子互動.py",
+      "size_bytes": 16044,
+      "sha256": "09bb96d6dcf4c64eddc93ab3e2aad2b755e928390e02881f51abe3efbf59f114"
+    },
+    {
+      "path": "quarantine_review/legacy_patch_tools/更新八重神子桌面.py",
+      "size_bytes": 9274,
+      "sha256": "6d387919eef66a7a54b3e600779f2412ad6118a448586efd57c7690295c77517"
+    },
+    {
+      "path": "quarantine_review/legacy_patch_tools/更新八重神子自主思考.py",
+      "size_bytes": 12766,
+      "sha256": "9f40141829fb783c260c939ffa9f220881b3490bd600267eb05e5d171937fbb1"
+    },
+    {
+      "path": "requirements-test.txt",
+      "size_bytes": 7,
+      "sha256": "5ebc7ddfa10ff584cd21e117fb08802d88430a5e4732a13c47b6b1b18a43c3b6"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 253,
+      "sha256": "d3fe099ee70edc55f0bcff28062e4016dfd0fcdfd88f66fd8d2c615a8f5e4db7"
+    },
+    {
+      "path": "rollback/desktop_pet.py.2号原始備份",
+      "size_bytes": 129767,
+      "sha256": "6b578f86b64daec60c168d4140de7b517740849392c5e2d5f4db1eb32ae02b5d"
+    },
+    {
+      "path": "rollback/desktop_pet.py.original",
+      "size_bytes": 125647,
+      "sha256": "763b54803a7ca173757ae4cb484512a5675a8e632998a44ea4268619e4798a94"
+    },
+    {
+      "path": "rollback_growth_v2.py",
+      "size_bytes": 1367,
+      "sha256": "067bc8667f656137f5fb16109cb1862691d9f77cb50e13f7c5642e6fa20b6799"
+    },
+    {
+      "path": "sol_history.db",
+      "size_bytes": 49152,
+      "sha256": "15ec04032271cacbfc63ff022bf9c0d5b798d2ea620fb466369afc58cf9dfe06"
+    },
+    {
+      "path": "sol_window.py",
+      "size_bytes": 18049,
+      "sha256": "851064bfe8f505ef9a571f9515b6f76af98c7a43f9a3d8ba06b93f0b17907748"
+    },
+    {
+      "path": "test_character_state_v5.py",
+      "size_bytes": 3611,
+      "sha256": "db56a2b1550541a037acd0b80d17007267d26144e9ccbc5f37b75d4997099ebc"
+    },
+    {
+      "path": "test_growth_v2.py",
+      "size_bytes": 23588,
+      "sha256": "e486837a412da582645501367c2ce7158f0a940b3d0f7c296f13ddce32230c84"
+    },
+    {
+      "path": "test_patch1_engineering.py",
+      "size_bytes": 17715,
+      "sha256": "05af07059daf5bff92c64f65bcd72399b2c60dd2da9d2046cf09c544de6cb7f2"
+    },
+    {
+      "path": "test_phase4_p0.py",
+      "size_bytes": 10728,
+      "sha256": "c51efd68fee4b36a9944580db282f4676e46bc62f24e2cff7ed6eb1bb62270b3"
+    },
+    {
+      "path": "test_windows_gui_v5.py",
+      "size_bytes": 1727,
+      "sha256": "e298d36632b95cb8c07c5d82f4a64c8a3bb89f91aec860e55827b74c55e4e19f"
+    },
+    {
+      "path": "yae_game_database.db",
+      "size_bytes": 1720320,
+      "sha256": "5bc70c6f879c8ea3743af7204eccc2fc9997058956244584182a6b773418fce4"
+    },
+    {
+      "path": "八重神子成長資料.db",
+      "size_bytes": 94208,
+      "sha256": "979aed2fb566223febb5c3c0296dec1d26a7591c09117949a85206298a9e5f90"
+    },
+    {
+      "path": "八重神子成長資料.db.pre_growth_v2.bak",
+      "size_bytes": 49152,
+      "sha256": "ab24060bb92f6e10d86479ca58b846bd8a6eb04e84e27566bfd319cc6ebdbe4e"
+    },
+    {
+      "path": "第一階段修復說明.txt",
+      "size_bytes": 1647,
+      "sha256": "46763decce88f0479238cf34f4fd371735eaa02421f922d5e90651e0adbe97f7"
+    }
+  ]
+}
