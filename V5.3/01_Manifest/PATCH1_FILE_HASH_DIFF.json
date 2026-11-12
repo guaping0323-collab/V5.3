@@ -1,0 +1,77 @@
+{
+  "PATCH1_CHANGELOG.md": {
+    "before_sha256": null,
+    "after_sha256": "253238ab135b7c82d516b27240b58a4d5b9a778e09b517f7e416ab5370766282",
+    "status": "ADDED"
+  },
+  "PATCH1_DIFF_REPORT.md": {
+    "before_sha256": null,
+    "after_sha256": "3ff0aea8ccd38571530750b73ad805634e52bef5d6075aacce39336ad2728c39",
+    "status": "ADDED"
+  },
+  "PATCH1_INSTALLATION.md": {
+    "before_sha256": null,
+    "after_sha256": "b6f76ccc1f11a43a8c90c072d48aac6ff512bdb7cefbc111ccd49e7c272ae6c9",
+    "status": "ADDED"
+  },
+  "PATCH1_TEST_REPORT.md": {
+    "before_sha256": null,
+    "after_sha256": "38320e0657a12c63a0a3eb03d654f07268e2a97483d2cd95a05fa160301b7a31",
+    "status": "ADDED"
+  },
+  "PATCH1_V54_BACKLOG.md": {
+    "before_sha256": null,
+    "after_sha256": "0ab3f6f27acb4846199a5f7e50ba35b801a2978bcea7f65fe29e6048f54507c2",
+    "status": "ADDED"
+  },
+  "database_paths.py": {
+    "before_sha256": null,
+    "after_sha256": "5f5428e19c748c71b2743bc745dba44c510b95c7572cb39eb4e1c086cf50cc38",
+    "status": "ADDED"
+  },
+  "desktop_pet.py": {
+    "before_sha256": "264069254e8bcaa62ba9567594581e26f4ca74c6cfa5fd9d488ea3532bc14c02",
+    "after_sha256": "dec0dc466b14fe3071e3dc1b916ecaf2e0a6e4c42a32f1ed323a188e92592443",
+    "status": "MODIFIED"
+  },
+  "event_logger.py": {
+    "before_sha256": null,
+    "after_sha256": "abf14bc7081f956fde47854c142f2b6985df44b5334cd33bad4aceb3f7fdda4d",
+    "status": "ADDED"
+  },
+  "game_classification.py": {
+    "before_sha256": "47f4dd249a44618a98ee40421fa0cf02bf9e26da4ee5cf3b7f06a4de45238945",
+    "after_sha256": "2d12aceeddaa420a79382ad406c3208bac71b3a524d4ce409fdfd279df515e53",
+    "status": "MODIFIED"
+  },
+  "growth_manager.py": {
+    "before_sha256": "3980dd1d3b72fced2c4a1a45aa2a1690db8ada7e0e5e20eb9e2b19b8e010d00b",
+    "after_sha256": "9d259778a6055acc164a7e7d3f7e01e695e25d00981b6b04b515bd4cac1c231f",
+    "status": "MODIFIED"
+  },
+  "migrate_growth_v2.py": {
+    "before_sha256": "70fd8dc7e92df63ffc30b7476bbdf82570634a077f965e8ddc2ba4f3064037c0",
+    "after_sha256": "4cf4b3f87eda8652c66e7c252238b0aab706d44138340c1539964ecf4e32fbdb",
+    "status": "MODIFIED"
+  },
+  "rollback_growth_v2.py": {
+    "before_sha256": "0c932cf3134b46862dfd6672a7ecff07e4945b2aabb0d5cb2e08893552a308ff",
+    "after_sha256": "067bc8667f656137f5fb16109cb1862691d9f77cb50e13f7c5642e6fa20b6799",
+    "status": "MODIFIED"
+  },
+  "sol_window.py": {
+    "before_sha256": "f857abc4eab19183b798a611ed20c792478d75502e05800c9f0a20a96429ff35",
+    "after_sha256": "851064bfe8f505ef9a571f9515b6f76af98c7a43f9a3d8ba06b93f0b17907748",
+    "status": "MODIFIED"
+  },
+  "test_patch1_engineering.py": {
+    "before_sha256": null,
+    "after_sha256": "05af07059daf5bff92c64f65bcd72399b2c60dd2da9d2046cf09c544de6cb7f2",
+    "status": "ADDED"
+  },
+  "PATCH1_TEST_ID_CROSSWALK.md": {
+    "before_sha256": null,
+    "after_sha256": "36dfecea92ae1db6a41986d15059c4b2a3709dbb781428d2b8cf5f42891eb829",
+    "status": "ADDED"
+  }
+}
