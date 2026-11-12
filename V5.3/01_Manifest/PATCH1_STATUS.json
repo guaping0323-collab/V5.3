@@ -1,0 +1,57 @@
+{
+  "PATCH-001": {
+    "status": "PARTIAL",
+    "evidence": "test_patch1_engineering.py::DatabasePathTests; desktop_pet.py; sol_window.py",
+    "note": "統一 resolver 與 fail-closed 已測；Windows 啟動入口實機未測。"
+  },
+  "PATCH-002": {
+    "status": "PARTIAL",
+    "evidence": "test_patch1_engineering.py::MigrationSafetyTests; growth_manager.py",
+    "note": "備份、寫入失敗、交易 rollback、WAL、還原均測；程序 kill/crash 未測。"
+  },
+  "PATCH-003": {
+    "status": "PASS",
+    "evidence": "test_results/original_41/test_results.json::GAME-07; test_phase4_p0.py",
+    "note": "既有 fail-closed 修復保留，動態 spy 未核准候選搜尋呼叫為 0。"
+  },
+  "PATCH-004": {
+    "status": "PASS",
+    "evidence": "test_results/original_41/test_results.json::INTENT-04/06/09; test_phase4_p0.py; test_patch1_engineering.py",
+    "note": "既有 router 未重寫；對話回顧/陪伴聊天不觸發搜尋。"
+  },
+  "PATCH-005": {
+    "status": "BLOCKED",
+    "evidence": "desktop_pet.py::WebResearch._safe_public_url/read_page; test_patch1_engineering.py::URLSecurityTests; test_growth_v2.py::test_external_redirect_is_validated_before_following",
+    "note": "私有/非 global 位址與 redirect 已檢查；DNS pinning/rebinding 及 OS sandbox 未完成。"
+  },
+  "PATCH-006": {
+    "status": "PARTIAL",
+    "evidence": "FORMAL_DB_UNMODIFIED.json; test_patch1_engineering.py::MigrationSafetyTests; original_41 DB-01..DB-15",
+    "note": "三份 DB 未變且 integrity ok；Windows WAL/關閉程式實機驗證未測。"
+  },
+  "PATCH-007": {
+    "status": "PARTIAL",
+    "evidence": "test_patch1_engineering.py::SearchAndWorkerIsolationTests; test_growth_v2.py",
+    "note": "DDGS failure isolation 已 mock 測；真實 Ollama、GUI 不阻塞與網路恢復未測。"
+  },
+  "PATCH-008": {
+    "status": "PARTIAL",
+    "evidence": "test_patch1_engineering.py::SearchAndWorkerIsolationTests; desktop_pet.py",
+    "note": "兩個服務 worker start idempotent/stop join 通過；answer/post-answer/manual scan worker 尚未完整管理。"
+  },
+  "PATCH-009": {
+    "status": "PARTIAL",
+    "evidence": "test_patch1_engineering.py::MemoryLifecycleTests; test_growth_v2.py",
+    "note": "短期 CRUD 與 Growth 檢索測試通過；真實 Ollama 抽取與長期重啟整合未測。"
+  },
+  "PATCH-010": {
+    "status": "PARTIAL",
+    "evidence": "test_phase4_p0.py; test_patch1_engineering.py::ClassificationIdentityTests",
+    "note": "canonical/alias/dry-run/身份 fail-closed 強化；GUI 覆核及自然語言 server/region parser 未完成。"
+  },
+  "PATCH-011": {
+    "status": "PARTIAL",
+    "evidence": "event_logger.py; test_patch1_engineering.py::LoggingTests",
+    "note": "結構化日誌及敏感欄位 allow-list 已加入；尚未將所有舊 print/事件全面遷移。"
+  }
+}
