@@ -2,6 +2,7 @@
 
 V5.3 project delivery repository.
 
-- Candidate package and test evidence are organized under `V5.3/`.
-- Original SQLite databases are intentionally excluded from this public repository. Use a private repository for database-bearing backups.
-- SHA-256 manifests and delivery reports are included where available.
+- [V5.3 delivery folder](V5.3/README.md)
+- Patch 1 manifest, SHA-256 checksums, engineering reports, and installation documentation are committed on branch `upload/v5.3-package`.
+- The original candidate and test-evidence ZIP archives are not yet committed as binary files; see the delivery folder index for exact sizes and hashes.
+- The repository is public. The candidate archive contains three SQLite databases, so review their contents before distributing the archive publicly.
